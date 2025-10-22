@@ -1,8 +1,9 @@
 function setup() {
-
+    createCanvas (400,400);
 }
 
 function draw() {
+    background(0, 0, 200); 
 
 }
 
@@ -19,4 +20,9 @@ function star(x, y) {
     triangle(x + 50, y - 20, x, y - 20, x, y + 10);
     triangle(x - 20, y - 5, x, y + 10, x - 35, y + 30);
     triangle(x, y + 10, x + 20, y - 5, x + 35, y + 30);
+}
+
+ function mouseClicked() {
+    
+
 }
